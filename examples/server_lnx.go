@@ -9,9 +9,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/paypal/gatt"
-	"github.com/paypal/gatt/examples/service"
-	"github.com/paypal/gatt/linux/cmd"
+	"github.com/jvanderl/go-gatt"
+	"github.com/jvanderl/go-gatt/examples/service"
+	"github.com/jvanderl/go-gatt/linux/cmd"
 )
 
 // server_lnx implements a GATT server.

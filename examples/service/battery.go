@@ -1,6 +1,6 @@
 package service
 
-import "github.com/paypal/gatt"
+import "github.com/jvanderl/go-gatt"
 
 func NewBatteryService() *gatt.Service {
 	lv := byte(100)
